@@ -54,6 +54,9 @@ A full-stack fashion e-commerce web application built with PHP and MySQL featuri
 
 ![Payment](screenshots/paystack-payment-success.png)
 
+### Order Placed
+![Payment](screenshots/order-success.png)
+
 ### User Dashboard
 ![Dashboard](screenshots/user-dashboard.png)
 
@@ -74,6 +77,7 @@ A full-stack fashion e-commerce web application built with PHP and MySQL featuri
 ## 👨‍💻 Author
 
 Built by: Olakanmi Michael Olayinka
+
 
 
 
