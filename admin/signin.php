@@ -1,5 +1,10 @@
 <?php
 require_once('../layout/header.php');
+
+if(isset($_SESSION['admin_id'])){
+    header("Location: /veefashion/admin/dashboard/admin.php");
+    exit;
+};
 ?>
 
 <div class="signup_signin-container">
@@ -20,3 +25,4 @@ require_once('../layout/header.php');
 <?php
 require_once('../layout/footer.php');
 ?>
+
