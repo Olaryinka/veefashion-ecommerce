@@ -1,5 +1,6 @@
 <!-- Footer section -->
 <?php
+ob_end_flush();
 $root_folder = $_SERVER['DOCUMENT_ROOT'] . "/veefashion";
 require_once("$root_folder/config/db.php");
 require_once("$root_folder/config/function.php");
@@ -55,5 +56,6 @@ require_once("$root_folder/config/site_setting.php");
 </footer>
 
 </body>
+
 
 </html>
