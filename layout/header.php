@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 $root_folder = $_SERVER['DOCUMENT_ROOT'] . "/veefashion";
 define('BASE_URL', '/veefashion');
@@ -103,4 +104,5 @@ if (isset($_SESSION['id'])) {
     </header>
 
     <!-- MAIN STARTS HERE -->
+
     <main>
